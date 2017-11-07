@@ -17,4 +17,4 @@ add_action( 'wp_default_scripts', 'tt_jquery_migrate' );
 copy this code in your /themes/yourtheme/header.php
 
 	<?php do_action('yourtheme_before_header'); // search this and copy downline) ?>
-   <?php  do_action ('tt_jquery_migrate'); // add this  line   in your header.php?>
+        <?php  do_action ('tt_jquery_migrate'); // add this  line   in your header.php?>
